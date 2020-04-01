@@ -79,7 +79,7 @@ WORDS = [
     'php',
     'css',
     'html',
-    'git'
+    'git',
     'gitlab',
     'devops'
 ]
@@ -98,7 +98,7 @@ def display_board(hidden_word, tries):
     print(IMAGES[tries])
     print('')
     print(hidden_word)
-    print('--- * --- * --- * --- * --- * --- ')
+    print('------------------------')
 
 
 
