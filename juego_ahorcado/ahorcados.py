@@ -70,14 +70,18 @@ IMAGES = ['''
 ''']
 
 WORDS = [
-    'lavadora',
-    'secadora',
-    'sofa',
-    'gobierno',
-    'diputado',
-    'democracia',
-    'computadora',
-    'teclado'
+    'python',
+    'angular',
+    'javascript',
+    'nodejs',
+    'android',
+    'ionic',
+    'php',
+    'css',
+    'html',
+    'git'
+    'gitlab',
+    'devops'
 ]
 
 
@@ -134,6 +138,7 @@ def run():
             for idx in letter_indexes:
                 hidden_word[idx] = current_letter
                 
+            #Se reinicia la palabra
             letter_indexes = []
 
             #Saber si ganaste al no tener mas -
